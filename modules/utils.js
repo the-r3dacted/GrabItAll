@@ -16,9 +16,9 @@ const NS_XUL = 'http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul';
 exports.NS_XUL = NS_XUL;
 
 /**
- * DownItAll! Properties namespace
+ * GrabItAll! Properties namespace
  */
-const NS_DIA = 'http://downitall.realityripple.com/properties#';
+const NS_DIA = 'http://grabitall.eclipse.cx/properties#';
 exports.NS_DIA = NS_DIA;
 
 /**

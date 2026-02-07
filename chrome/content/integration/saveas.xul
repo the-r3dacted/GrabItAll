@@ -6,11 +6,11 @@
 <?xml-stylesheet type="text/css" href="chrome://dia/content/common/bindings.css"?>
 <?xml-stylesheet type="text/css" href="chrome://dia/skin/integration/saveas.css"?>
 
-<overlay id="downitallDownloadSaveAs" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<overlay id="grabitallDownloadSaveAs" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
  <radiogroup id="mode">
-  <vbox insertbefore="save" id="downitallcontainer" collapsed="true" flex="1">
+  <vbox insertbefore="save" id="grabitallcontainer" collapsed="true" flex="1">
    <hbox flex="1">
-    <radio id="downitall" label="DownItAll" disabled="true" />
+    <radio id="grabitall" label="GrabItAll" disabled="true" />
    </hbox>
    <hbox id="tdia" flex="1">
     <radio id="turbodia" disabled="true" label="DiA! OneClick" />

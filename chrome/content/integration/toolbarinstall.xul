@@ -11,7 +11,7 @@
  <!ENTITY % defmenuDTD SYSTEM "chrome://dia-locale/content/menu.dtd">
  %defmenuDTD;
 ]>
-<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&dia-tbinstall;" id="DownItAll" windowtype="DIA:TBInstall">
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&dia-tbinstall;" id="GrabItAll" windowtype="DIA:TBInstall">
   <script type="text/javascript" src="toolbarinstall.js"/>
   <grid>
    <columns><column/><column flex="1"/></columns>

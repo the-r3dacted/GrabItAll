@@ -27,7 +27,7 @@
 ]>
 
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" id="diamanagermainoverlay">
-<window windowtype="DIA:Manager" title="DownItAll!" id="DownItAll" class="downlinks" flex="1" persist="width height screenX screenY sizemode">
+<window windowtype="DIA:Manager" title="GrabItAll!" id="GrabItAll" class="downlinks" flex="1" persist="width height screenX screenY sizemode">
 
  <audio xmlns="http://www.w3.org/1999/xhtml" src="chrome://dia/skin/sounds/done.ogg" id="sound_done"></audio>
  <audio xmlns="http://www.w3.org/1999/xhtml" src="chrome://dia/skin/sounds/error.ogg" id="sound_error"></audio>
@@ -41,7 +41,7 @@
  <script type="application/javascript" src="chrome://dia/content/dia/manager/utils.js" />
  <script type="application/javascript" src="chrome://dia/content/dia/manager/tree.js" />
 
- <stringbundleset xmlns="http://downitall.realityripple.com/properties#">
+ <stringbundleset xmlns="http://grabitall.eclipse.cx/properties#">
   <stringbundle src="chrome://dia/locale/common.properties" />
   <stringbundle src="chrome://dia/locale/manager.properties" />
   <stringbundle src="chrome://dia/locale/prefpanes.properties" />

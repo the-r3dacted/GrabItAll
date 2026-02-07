@@ -15,7 +15,7 @@ for (let [k,v] in Iterator(api)) {
  /* jshint -W083 */
  Object.defineProperty(this, _k, {
   get: function() {
-   Cu.reportError("deprecated DownItAll! API access; see glue.jsm/require(). Symbol was " + _k);
+   Cu.reportError("deprecated GrabItAll! API access; see glue.jsm/require(). Symbol was " + _k);
    return _v;
   },
   enumerable: true

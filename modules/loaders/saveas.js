@@ -39,7 +39,7 @@ function load(window, document) {
 
   const basicBox = $('basicBox');
   const normalBox = $('normalBox');
-  const normal = $('downitall');
+  const normal = $('grabitall');
   const turbo = $('turbodia');
   const turboExec = $('turbodiaexec');
   const mode = $('mode');
@@ -162,7 +162,7 @@ function load(window, document) {
    log(LOG_DEBUG, "not overlaying");
    return;
   }
-  $('downitallcontainer').collapsed = false;
+  $('grabitallcontainer').collapsed = false;
   normal.disabled = false;
 
   isPrivate = isWindowPrivate(dialog.mContext);

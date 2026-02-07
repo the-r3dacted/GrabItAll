@@ -19,7 +19,7 @@
 ]>
 
 <dialog
- id="DownItAll"
+ id="GrabItAll"
  title="&window.title;"
  onload="load();"
  buttons="accept"
@@ -28,7 +28,7 @@
  ondialogcancel="return false;"
  width="460px"
  >
-  <stringbundleset xmlns="http://downitall.realityripple.com/properties#">
+  <stringbundleset xmlns="http://grabitall.eclipse.cx/properties#">
    <stringbundle src="chrome://dia/locale/conflicts.properties"/>
   </stringbundleset>
   <script type="application/javascript" src="chrome://dia/content/common/internalFunctions.js"/>

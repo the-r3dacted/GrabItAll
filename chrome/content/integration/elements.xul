@@ -64,7 +64,7 @@
  </commandset>
 
 
- <menu id="diaCtxCompact" label="DownItAll" class="menu-iconic dia-menuitem dia-normal">
+ <menu id="diaCtxCompact" label="GrabItAll" class="menu-iconic dia-menuitem dia-normal">
   <menupopup id="diaCtxSubmenu">
    <menuseparator class="thin" id="diaCtxSepFront" />
    <menuitem class="menuitem-iconic dia-menuitem dia-normal" id="diaCtxDIA" accesskey="g" label="&dia-regular2.label;" command="dia:regular" />
@@ -94,20 +94,20 @@
   </menupopup>
  </menu>
 
- <toolbarbutton id="dia-button" class="chromeclass-toolbar-additional toolbarbutton-1 dia-toolbarbutton" label="&dia-regular2.label;" tooltiptext="&dia-regular.desc;" type="menu-button" buttoncommand="dia:regular" widget-type="view" panelview="PanelUI-downitall">
+ <toolbarbutton id="dia-button" class="chromeclass-toolbar-additional toolbarbutton-1 dia-toolbarbutton" label="&dia-regular2.label;" tooltiptext="&dia-regular.desc;" type="menu-button" buttoncommand="dia:regular" widget-type="view" panelview="PanelUI-grabitall">
   <menupopup  id="dia-button-popup">
-   <menuitem id="dia-tb-dia" label="DownItAll! (&dia-tb-single.label;)" class="menuitem-iconic dia-menuitem dia-normal" tooltiptext="&dia-regular2.label;" command="dia:regular"/>
-   <menuitem id="dia-tb-all" label="DownItAll! (&dia-tb-all.label;)" class="menuitem-iconic dia-menuitem dia-normal" tooltiptext="&dia-regular2.label;" command="dia:regular-all"/>
+   <menuitem id="dia-tb-dia" label="GrabItAll! (&dia-tb-single.label;)" class="menuitem-iconic dia-menuitem dia-normal" tooltiptext="&dia-regular2.label;" command="dia:regular"/>
+   <menuitem id="dia-tb-all" label="GrabItAll! (&dia-tb-all.label;)" class="menuitem-iconic dia-menuitem dia-normal" tooltiptext="&dia-regular2.label;" command="dia:regular-all"/>
    <menuseparator />
    <menuitem id="dia-tb-manager" label="&dia-manager-button;" class="menuitem-iconic dia-menuitem dia-manager" tooltiptext="&dia-manager-button;" command="dia:manager" />
   </menupopup>
  </toolbarbutton>
 
  <box id="notification-popup-box">
-  <image id="downitall-notification-icon" class="notification-anchor-icon" role="button" />
+  <image id="grabitall-notification-icon" class="notification-anchor-icon" role="button" />
  </box>
 
- <toolbarbutton id="dia-turbo-button" class="chromeclass-toolbar-additional toolbarbutton-1 dia-toolbarbutton" label="&dia-regular-turbo2.label;" tooltiptext="&dia-regular-turbo.desc;" type="menu-button" widget-type="view" buttoncommand="dia:turbo" panelview="PanelUI-downitall-turbo">
+ <toolbarbutton id="dia-turbo-button" class="chromeclass-toolbar-additional toolbarbutton-1 dia-toolbarbutton" label="&dia-regular-turbo2.label;" tooltiptext="&dia-regular-turbo.desc;" type="menu-button" widget-type="view" buttoncommand="dia:turbo" panelview="PanelUI-grabitall-turbo">
   <menupopup id="dia-turbo-button-popup">
    <menuitem id="dia-tb-turbo" label="DiA! OneClick (&dia-tb-single.label;)" tooltiptext="&dia-regular-turbo2.label;" class="menuitem-iconic dia-menuitem dia-turbo" command="dia:turbo"/>
    <menuitem id="dia-tb-allturbo" label="DiA! OneClick (&dia-tb-all.label;)" tooltiptext="&dia-regular-turbo2.label;" class="menuitem-iconic dia-menuitem dia-turbo" command="dia:turbo-all"/>
@@ -119,7 +119,7 @@
  <toolbarbutton id="dia-turboselect-button" class="chromeclass-toolbar-additional toolbarbutton-1 dia-toolbarbutton" label="&dia-selector-button2.label;" tooltiptext="&dia-selector-button.desc;" type="checkbox" command="dia:turboselect" />
  <toolbarbutton id="dia-manager-button" class="chromeclass-toolbar-additional toolbarbutton-1 dia-toolbarbutton" label="&dia-manager-button;" tooltiptext="&dia-manager-button;" command="dia:manager"/>
 
- <menu id="diaToolsMenu" label="DownItAll" class="menu-iconic dia-menuitem dia-normal">
+ <menu id="diaToolsMenu" label="GrabItAll" class="menu-iconic dia-menuitem dia-normal">
   <menupopup id="diaToolsPopup">
    <menuitem id="diaToolsDIA" label="&dia-regular2.label;" class="menuitem-iconic dia-menuitem dia-normal" command="dia:regular"/>
    <menuitem id="diaToolsTDIA" label="&dia-regular-turbo2.label;" class="menuitem-iconic dia-menuitem dia-turbo" command="dia:turbo"/>
@@ -132,7 +132,7 @@
  </menu>
 
  <vbox id="appmenuSecondaryPane">
-  <menu id="diaAppMenu" label="DownItAll" class="menu-iconic dia-menuitem dia-normal" insertafter="appmenu_downloads">
+  <menu id="diaAppMenu" label="GrabItAll" class="menu-iconic dia-menuitem dia-normal" insertafter="appmenu_downloads">
    <menupopup id="diaAppMenuPopup">
     <menuitem id="diaAppMenuDIA" label="&dia-regular2.label;" class="menuitem-iconic dia-menuitem dia-normal" command="dia:regular"/>
     <menuitem id="diaAppMenuTDIA" label="&dia-regular-turbo2.label;" class="menuitem-iconic dia-menuitem dia-turbo" command="dia:turbo"/>
@@ -146,7 +146,7 @@
  </vbox>
 
  <panelmultiview id="PanelUI-multiView">
-  <panelview id="PanelUI-downitall" flex="1" class="PanelUI-subView">
+  <panelview id="PanelUI-grabitall" flex="1" class="PanelUI-subView">
    <label value="&dia-regular2.label;" class="panel-subview-header"/>
    <vbox class="panel-subview-body">
     <toolbarbutton id="dia-panel-dia" label="&dia-tb-single.label;" class="subviewbutton cui-withicon dia-menuitem dia-normal" tooltiptext="&dia-regular2.label;" command="dia:regular"/>
@@ -155,7 +155,7 @@
     <toolbarbutton id="dia-panel-manager" label="&dia-manager-button;" class="subviewbutton cui-withicon dia-menuitem dia-manager" tooltiptext="&dia-manager-button;" command="dia:manager" />
    </vbox>
   </panelview>
-  <panelview id="PanelUI-downitall-turbo" flex="1"  class="PanelUI-subView">
+  <panelview id="PanelUI-grabitall-turbo" flex="1"  class="PanelUI-subView">
    <label value="&dia-regular-turbo2.label;" class="panel-subview-header"/>
    <vbox class="panel-subview-body">
     <toolbarbutton id="dia-panel-turbo" label="&dia-tb-single.label;" tooltiptext="&dia-regular-turbo2.label;" class="subviewbutton cui-withicon dia-menuitem dia-turbo" command="dia:turbo"/>

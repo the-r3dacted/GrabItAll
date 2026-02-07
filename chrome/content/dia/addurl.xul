@@ -32,7 +32,7 @@
  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
  xmlns:html="http://www.w3.org/1999/xhtml"
  title="&windowtitle;"
- id="DownItAll"
+ id="GrabItAll"
  onload="Dialog.load();"
  persist="screenX screenY width"
  ondialogaccept="return Dialog.download(true);"
@@ -47,7 +47,7 @@
  <script type="application/javascript" src="chrome://dia/content/common/internalFunctions.js"/>
  <script type="application/javascript" src="chrome://dia/content/dia/addurl.js"/>
 
- <stringbundleset xmlns="http://downitall.realityripple.com/properties#">
+ <stringbundleset xmlns="http://grabitall.eclipse.cx/properties#">
   <stringbundle src="chrome://dia/locale/addurl.properties"/>
   <stringbundle src="chrome://dia/locale/common.properties"/>
  </stringbundleset>

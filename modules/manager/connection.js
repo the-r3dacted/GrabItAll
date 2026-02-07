@@ -311,7 +311,7 @@ Connection.prototype = {
   return null;
  },
  contractID: null,
- classDescription: "DownItAll! connection",
+ classDescription: "GrabItAll! connection",
  classID: null,
  implementationLanguage: Ci.nsIProgrammingLanguage.JAVASCRIPT,
  flags: Ci.nsIClassInfo.MAIN_THREAD_ONLY,

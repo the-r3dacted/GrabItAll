@@ -51,9 +51,9 @@ function ContentHandlingImpl() {
  this._init();
 }
 ContentHandlingImpl.prototype = {
- classDescription: "DownItAll! ContentHandling",
+ classDescription: "GrabItAll! ContentHandling",
  classID: Components.ID("366982b8-9db9-4383-aae7-dbc2f40ba6f6"),
- contractID: "@downitall.realityripple.com/content/redirects;1",
+ contractID: "@grabitall.eclipse.cx/content/redirects;1",
  xpcom_categories: ["net-channel-event-sinks"],
 
  QueryInterface: QI([Ci.nsIObserver, Ci.nsIURIContentListener, Ci.nsIFactory, Ci.nsIChannelEventSink]),
