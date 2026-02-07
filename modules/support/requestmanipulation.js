@@ -51,7 +51,7 @@ for (let [m, sp] of mans) {
  defineManipulator(m, sp);
 }
 
-var _uaextra = "DownItAll!";
+var _uaextra = "GrabItAll!";
 var _uaplatform = (function() {
  return Services.httphandler.platform + "; " +
   Services.httphandler.oscpu + "; " +
@@ -83,7 +83,7 @@ exports.makeCompletelyAnonymous = function makeCompletelyAnonymous() {
 
 exports.amendUA = function amendUA() {
  let ua = this.getRequestHeader('User-Agent');
- if (!/^DownItAll/.test(ua)) {
+ if (!/^GrabItAll/.test(ua)) {
   this.setRequestHeader('User-Agent', ua + " " + _uaextra, false);
  }
 };

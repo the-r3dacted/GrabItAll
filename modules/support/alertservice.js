@@ -30,9 +30,9 @@ function XULAlertsService() {
  // The implementation should be kept in sync.
 }
 XULAlertsService.prototype = Object.freeze({
- classDescription: "DownItAll! xul alerts service",
+ classDescription: "GrabItAll! xul alerts service",
  classID: Components.ID('{066c7f30-ba84-11e3-a5e2-0800200c9a66}'),
- contractID: '@downitall.realityripple.com/xul-alerts-service;1',
+ contractID: '@grabitall.eclipse.cx/xul-alerts-service;1',
 
  QueryInterface: QI([Ci.nsIAlertsService]),
 
@@ -89,7 +89,7 @@ let supportsClickable = true;
  catch (ex) {
   log(LOG_DEBUG, "Using xul alerts service because: ", ex);
   supportsClickable = true;
-  service = Cc['@downitall.realityripple.com/xul-alerts-service;1'].getService(Ci.nsIAlertsService);
+  service = Cc['@grabitall.eclipse.cx/xul-alerts-service;1'].getService(Ci.nsIAlertsService);
  }
 })();
 
@@ -113,9 +113,9 @@ exports.show = function alertservice_show(title, msg, callback, icon) {
    title,
    msg,
    clickable,
-   "downitall",
+   "GrabItAll",
    obs,
-   "@downitall.realityripple.com/" + Date.now().toString()
+   "@grabitall.eclipse.cx/" + Date.now().toString()
    );
  }
  catch (ex if ex.result === Cr.NS_ERROR_NOT_IMPLEMENTED) {

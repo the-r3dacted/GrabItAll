@@ -60,7 +60,7 @@ function prepareStack(stack) {
 
 lazy(global, "file", function() {
  let file = Services.dirsvc.get("ProfD", Ci.nsIFile);
- file.append("downitall.realityripple.com");
+ file.append("grabitall.eclipse.cx");
  file.append('log.txt');
  if (file.exists() && file.fileSize > (256 * 1024)) {
   try {
@@ -173,7 +173,7 @@ exports.log = function(level, message, exception) {
     levelMsg = "debug";
   }
 
-  message = `DownItAll! (${levelMsg}) - ${message}`;
+  message = `GrabItAll! (${levelMsg}) - ${message}`;
 
   const scriptError = new Instances.ScriptError(
    message,

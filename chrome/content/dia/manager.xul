@@ -2,4 +2,4 @@
 <?xul-overlay href="chrome://dia/content/dia/manager/manager.xul"?>
 <!DOCTYPE dialog>
 
-<window id="DownItAll" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"/>
+<window id="GrabItAll" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"/>

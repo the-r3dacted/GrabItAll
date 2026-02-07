@@ -351,9 +351,9 @@ unload(function() {
 
 function VacuumParticipant() {}
 VacuumParticipant.prototype = Object.freeze({
- classDescription: "DownItAll! QueueStore Vacuum Participant",
+ classDescription: "GrabItAll! QueueStore Vacuum Participant",
  classID: Components.ID("{c2f27651-9db2-438a-bcc7-f9e9bb2e3393}"),
- contractID: "@downitall.realityripple.com/vacuum-participant;1",
+ contractID: "@grabitall.eclipse.cx/vacuum-participant;1",
  xpcom_categories: ["vacuum-participant"],
  QueryInterface: QI([Ci.mozIStorageVacuumParticipant]),
 

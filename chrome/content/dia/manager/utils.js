@@ -52,7 +52,7 @@ try {
 
   let _oc = Dialog.onclose;
   Dialog.onclose = function(evt) {
-   if (self.prefs.getExt("downitall", false) &&
+   if (self.prefs.getExt("grabitall", false) &&
     (self.prefs.getExt("minimizeon", 1) & (1<<1))) {
     evt.preventDefault();
     return false;

@@ -24,7 +24,7 @@
  %defmanagerDTD;
 ]>
 
-<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&infoMultiple.value;" id="DownItAll" buttons="accept,cancel" ondialogaccept="return Dialog.accept();">
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&infoMultiple.value;" id="GrabItAll" buttons="accept,cancel" ondialogaccept="return Dialog.accept();">
 
  <script type="application/x-javascript" src="chrome://global/content/nsUserSettings.js" />
 
@@ -32,7 +32,7 @@
  <script type="application/javascript" src="chrome://dia/content/dia/manager/info.js" />
  <script type="application/javascript" src="chrome://dia/content/dia/manager/utils.js" />
 
- <stringbundleset xmlns="http://downitall.realityripple.com/properties#">
+ <stringbundleset xmlns="http://grabitall.eclipse.cx/properties#">
   <stringbundle src="chrome://dia/locale/common.properties" />
  </stringbundleset>
 

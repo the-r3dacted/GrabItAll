@@ -1,15 +1,15 @@
 @import 'chrome://dia/skin/toolbarbuttons/buttons.css';
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-#notification-popup-box[anchorid="downitall-notification-icon"] > #downitall-notification-icon {
+#notification-popup-box[anchorid="grabitall-notification-icon"] > #grabitall-notification-icon {
  display: -moz-box;
 }
-#downitall-notification-icon {
+#grabitall-notification-icon {
  list-style-image: url(chrome://dia/skin/toolbarbuttons/buttons16.png);
  -moz-image-region: rect(0px,64px,16px,48px);
 }
 
-.popup-notification-icon[popupid="downitall"] {
+.popup-notification-icon[popupid="grabitall"] {
  list-style-image: url(chrome://diaicon/content/icon64.png);
 }
 

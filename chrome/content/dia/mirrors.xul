@@ -27,14 +27,14 @@
  <!ENTITY % defmirrorsDTD SYSTEM "chrome://dia-locale/content/mirrors.dtd">
  %defmirrorsDTD;
 ]>
-<dialog title="&title;" id="DownItAllMirrors" windowtype="DIA:mirrors" flex="1" persist="width height screenX screenY" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<dialog title="&title;" id="GrabItAllMirrors" windowtype="DIA:mirrors" flex="1" persist="width height screenX screenY" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
  <script type="application/x-javascript" src="chrome://global/content/globalOverlay.js" />
  <script type="application/javascript" src="chrome://dia/content/common/internalFunctions.js" />
 
  <script type="text/javascript" src="mirrors.js" />
 
- <stringbundleset id="bundles" xmlns="http://downitall.realityripple.com/properties#">
+ <stringbundleset id="bundles" xmlns="http://grabitall.eclipse.cx/properties#">
   <stringbundle src="chrome://dia/locale/mirrors.properties" />
  </stringbundleset>
 

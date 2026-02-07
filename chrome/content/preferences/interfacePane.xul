@@ -61,7 +61,7 @@
     <row id="rowItems">
      <groupbox>
       <caption label="&uipane.context.caption;" />
-      <checkbox id="diaContext0" preference="diaContext" label="DownItAll!" class="moreLeft" onsyncfrompreference="return Interface.getMenu('diaContext', 0);" onsynctopreference="return Interface.setMenu('diaContext', 0);" />
+      <checkbox id="diaContext0" preference="diaContext" label="GrabItAll!" class="moreLeft" onsyncfrompreference="return Interface.getMenu('diaContext', 0);" onsynctopreference="return Interface.setMenu('diaContext', 0);" />
       <checkbox id="diaContext1" preference="diaContext" label="DiA! OneClick" onsyncfrompreference="return Interface.getMenu('diaContext', 1);" onsynctopreference="return Interface.setMenu('diaContext', 1);" class="moreLeft" />
       <checkbox id="diaContext2" preference="diaContext" label="&diacontext2.label;" onsyncfrompreference="return Interface.getMenu('diaContext', 2);" onsynctopreference="return Interface.setMenu('diaContext', 2);" class="moreLeft" />
       <separator class="thin" />
@@ -69,7 +69,7 @@
      </groupbox>
      <groupbox>
       <caption label="&uipane.tools.caption;" />
-      <checkbox id="diaTool0" preference="diaTool" label="DownItAll!" onsyncfrompreference="return Interface.getMenu('diaTool', 0);" onsynctopreference="return Interface.setMenu('diaTool', 0);" class="moreLeft" />
+      <checkbox id="diaTool0" preference="diaTool" label="GrabItAll!" onsyncfrompreference="return Interface.getMenu('diaTool', 0);" onsynctopreference="return Interface.setMenu('diaTool', 0);" class="moreLeft" />
       <checkbox id="diaTool1" preference="diaTool" label="DiA! OneClick" onsyncfrompreference="return Interface.getMenu('diaTool', 1);" onsynctopreference="return Interface.setMenu('diaTool', 1);" class="moreLeft" />
       <checkbox id="diaTool2" preference="diaTool" label="&manager;" onsyncfrompreference="return Interface.getMenu('diaTool', 2);" onsynctopreference="return Interface.setMenu('diaTool', 2);" class="moreLeft" />
       <separator class="thin" />

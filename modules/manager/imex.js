@@ -53,7 +53,7 @@ exports.exportToTextFile = function exportToTextFile(aDownloads, aFile, aPermiss
 
 exports.exportToHtmlFile = function exportToHtmlFile(aDownloads, aDocument, aFile, aPermissions) {
  // do not localize?!
- let title = "DownItAll: exported on " + (new Date).toUTCString();
+ let title = "GrabItAll: exported on " + (new Date).toUTCString();
 
  let doctype = aDocument.implementation.createDocumentType('html', null, null);
  let document = aDocument.implementation.createDocument('http://www.w3.org/1999/xhtml', 'html', doctype);
@@ -133,8 +133,8 @@ exports.exportToHtmlFile = function exportToHtmlFile(aDownloads, aDocument, aFil
   let foot = document.createElement('p');
   foot.appendChild(document.createTextNode('Exported by '));
   n = document.createElement('a');
-  n.setAttribute('href', 'https://realityripple.com/Software/XUL/DownItAll/');
-  n.textContent = "DownItAll! " + "Version.VERSION";
+  n.setAttribute('href', 'https://github.com/the-r3dacted/GrabItAll/');
+  n.textContent = "GrabItAll! " + "Version.VERSION";
   foot.appendChild(n);
   body.appendChild(foot);
 
@@ -152,14 +152,14 @@ exports.exportToMetalinkFile = function exportToMetalinkFile(aDownloads, aDocume
  let root = document.documentElement;
  root.setAttribute('type', 'static');
  root.setAttribute('version', '3.0');
- root.setAttribute('generator', "DownItAll!/" + Version.BASE_VERSION);
+ root.setAttribute('generator', "GrabItAll!/" + Version.BASE_VERSION);
  root.setAttributeNS(NS_DIA, 'version', Version.VERSION);
  root.setAttribute('pubdate', new Date().toUTCString());
 
  root.appendChild(document.createComment(
-   "metalink as exported by DownItAll! on " +
+   "metalink as exported by GrabItAll! on " +
    Version.APP_NAME + "/" + Version.APP_VERSION +
-   "\r\nMay contain DownItAll! specific information in the DownItAll! namespace: " +
+   "\r\nMay contain GrabItAll! specific information in the GrabItAll! namespace: " +
    NS_DIA
    ));
 
@@ -224,14 +224,14 @@ exports.exportToMetalink4File = function exportToMetalink4File(aDownloads, aDocu
  root.setAttributeNS(NS_DIA, 'version', Version.VERSION);
 
  root.appendChild(document.createComment(
-   "metalink as exported by DownItAll! on " +
+   "metalink as exported by GrabItAll! on " +
    Version.APP_NAME + "/" + Version.APP_VERSION +
-   "\r\nMay contain DownItAll! specific information in the DownItAll! namespace: " +
+   "\r\nMay contain GrabItAll! specific information in the GrabItAll! namespace: " +
    NS_DIA
    ));
 
  let generator = document.createElementNS(NS_METALINK_RFC5854, 'generator');
- generator.textContent = "DownItAll!/" + Version.BASE_VERSION;
+ generator.textContent = "GrabItAll!/" + Version.BASE_VERSION;
  root.appendChild(generator);
 
  let published = document.createElementNS(NS_METALINK_RFC5854, "published");

@@ -22,7 +22,7 @@ if (!("hasTests" in exports)) {
 
 function MetalinkInterceptModule() {}
 MetalinkInterceptModule.prototype = Object.freeze({
- classDescription: "DownItAll! metalink integration",
+ classDescription: "GrabItAll! metalink integration",
  classID: Components.ID('{4b048560-c789-11e1-9b21-0800200c9a67}'),
  contractID: '@mozilla.org/streamconv;1?from=application/metalink4+xml&to=*/*',
  QueryInterface: QI([
@@ -305,7 +305,7 @@ function registerOverlays() {
      li.splice(idx, 0, id);
     }
     tb.currentSet = li.join(",");
-    persist(tb, "downitall-currentset");
+    persist(tb, "grabitall-currentset");
     log(LOG_DEBUG, insertIds + " buttons restored in " + tb.id);
    }
 
@@ -323,8 +323,8 @@ function registerOverlays() {
   function maybeInsertButtons(ids) {
    function processToolbar(tb) {
     unloadWindow(tb.ownerDocument.defaultView, function() {
-     tb.setAttribute("downitall-currentset", tb.currentSet);
-     tb.ownerDocument.persist(tb.id, "downitall-currentset");
+     tb.setAttribute("grabitall-currentset", tb.currentSet);
+     tb.ownerDocument.persist(tb.id, "grabitall-currentset");
     });
    }
 
@@ -342,7 +342,7 @@ function registerOverlays() {
     return;
    }
    log(LOG_DEBUG, "running old");
-   for (let attr of ["currentset", "downitall-currentset"]) {
+   for (let attr of ["currentset", "grabitall-currentset"]) {
     if (!ids.length) {
      return;
     }

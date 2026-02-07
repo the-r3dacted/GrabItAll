@@ -24,7 +24,7 @@
 ]>
 
 <prefwindow
- id="DownItAll"
+ id="GrabItAll"
  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
  windowtype="DIA:Preferences"
  title="&diaPreferences.title;"
@@ -35,7 +35,7 @@
  onload="Prefs.load();"
  style="&windowstyle.3;"
  >
- <stringbundleset id="bundlesPrefs" xmlns="http://downitall.realityripple.com/properties#">
+ <stringbundleset id="bundlesPrefs" xmlns="http://grabitall.eclipse.cx/properties#">
   <stringbundle src="chrome://dia/locale/common.properties" />
   <stringbundle src="chrome://dia/locale/prefpanes.properties" />
  </stringbundleset>

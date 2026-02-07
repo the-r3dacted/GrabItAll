@@ -3,7 +3,7 @@
 
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 @namespace html url(http://www.w3.org/1999/xhtml);
-@namespace dia url(http://downitall.realityripple.com/properties#);
+@namespace dia url(http://grabitall.eclipse.cx/properties#);
 
 dia|* {
  display: none;

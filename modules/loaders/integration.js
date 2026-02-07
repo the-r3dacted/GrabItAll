@@ -168,9 +168,9 @@ exports.load = function load(window, outerEvent) {
      timeout = timeout || 2500;
      let notification = window.PopupNotifications.show(
        gBrowser.selectedBrowser,
-       'downitall',
+       'grabitall',
        message,
-       'downitall-notification-icon',
+       'grabitall-notification-icon',
        null,
        null,
        {timeout: timeout}
@@ -189,7 +189,7 @@ exports.load = function load(window, outerEvent) {
   case 2:
   /* jshint strict:true, globalstrict:true, +W086 */
    require("support/alertservice")
-    .show("DownItAll!", message, null, "chrome://diaicon/content/icon64.png");
+    .show("GrabItAll!", message, null, "chrome://diaicon/content/icon64.png");
    return;
   default:
    // no notification
@@ -262,7 +262,7 @@ exports.load = function load(window, outerEvent) {
    }
 
    if (turbo) {
-    log(LOG_INFO, "findLinks(): DiAOneClick request from the user");
+    log(LOG_INFO, "findLinks(): GiAOneClick request from the user");
    }
    else {
     log(LOG_INFO, "findLinks(): DiAStandard request from the user");
@@ -565,9 +565,9 @@ exports.load = function load(window, outerEvent) {
      }
      _n = window.PopupNotifications.show(
       gBrowser.selectedBrowser,
-      'downitall',
+      'grabitall',
       message,
-      'downitall-notification-icon'
+      'grabitall-notification-icon'
       );
     };
     return notifyProgress(message);

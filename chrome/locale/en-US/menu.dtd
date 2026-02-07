@@ -1,27 +1,27 @@
-<!-- LOCALIZATION NOTE : FILE Please do NOT translate DownItAll! and OneClick -->
+<!-- LOCALIZATION NOTE : FILE Please do NOT translate GrabItAll! and OneClick -->
 
 <!ENTITY dia-tbinstall "Add Toolbar Buttons">
 <!ENTITY dia-pref.label "Preferences">
-<!ENTITY dia-about2.label "About DownItAll!">
+<!ENTITY dia-about2.label "About GrabItAll!">
 <!ENTITY dia-manager-button "Manager">
 <!ENTITY dia-manager-button.desc "Opens the Manager window.">
 <!ENTITY dia-selector-button2.label "OneClick! Selector">
 <!ENTITY dia-selector-button.desc "Adds items by left-clicking on them.">
 <!ENTITY dia-tb-all.label "All Tabs">
 <!ENTITY dia-tb-single.label "Current Tab">
-<!ENTITY dia-selection2.label "DownItAll! Selection">
+<!ENTITY dia-selection2.label "GrabItAll! Selection">
 <!ENTITY dia-selection-turbo2.label "OneClick Selection">
-<!ENTITY dia-regular2.label "DownItAll!">
-<!ENTITY dia-regular.desc "Opens the DownItAll! Selection window for the current tab.">
+<!ENTITY dia-regular2.label "GrabItAll!">
+<!ENTITY dia-regular.desc "Opens the GrabItAll! Selection window for the current tab.">
 <!ENTITY dia-regular-turbo2.label "DiA! OneClick">
 <!ENTITY dia-regular-turbo.desc "Downloads all items from the current page according to the last used preferences and filters.">
-<!ENTITY dia-img-save2.label "Save Image with DownItAll!">
+<!ENTITY dia-img-save2.label "Save Image with GrabItAll!">
 <!ENTITY dia-img-save-turbo2.label "Save Image with DiA! OneClick">
-<!ENTITY dia-video-save2.label "Save Video with DownItAll!">
+<!ENTITY dia-video-save2.label "Save Video with GrabItAll!">
 <!ENTITY dia-video-save-turbo2.label "Save Video with DiA! OneClick">
-<!ENTITY dia-audio-save2.label "Save Audio with DownItAll!">
+<!ENTITY dia-audio-save2.label "Save Audio with GrabItAll!">
 <!ENTITY dia-audio-save-turbo2.label "Save Audio with DiA! OneClick">
-<!ENTITY dia-link-save2.label "Save Link with DownItAll!">
+<!ENTITY dia-link-save2.label "Save Link with GrabItAll!">
 <!ENTITY dia-link-save-turbo2.label "Save Link with DiA! OneClick">
-<!ENTITY dia-form-save2.label "Save Form Target with DownItAll!">
+<!ENTITY dia-form-save2.label "Save Form Target with GrabItAll!">
 <!ENTITY dia-form-save-turbo2.label "Save Form Target with DiA! OneClick">
