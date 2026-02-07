@@ -287,10 +287,6 @@ toolbox {
 
 /** :: Downloads :: **/
 
-treechildren::-moz-tree-row {
- min-height: 37px;
-}
-
 #downloads > treechildren::-moz-tree-progressmeter {
  padding: 1px; /* songbird compat */
  background-image: none !important; /* songbird compat */
@@ -332,40 +328,40 @@ treechildren::-moz-tree-progressmeter(inprogress) {
 }
 
 treechildren::-moz-tree-image(iconic) {
- list-style-image: url(icons@2x.png);
- -moz-image-region: rect(32px,96px,64px,64px);
+ list-style-image: url(icons.png);
+ -moz-image-region: rect(16px,48px,32px,32px);
 }
 treechildren::-moz-tree-image(iconic,canceled) {
- -moz-image-region: rect(0px,128px,32px,96px);
+ -moz-image-region: rect(0px,64px,16px,48px);
 }
 treechildren::-moz-tree-image(iconic,paused) {
- -moz-image-region: rect(0px,96px,32px,64px);
+ -moz-image-region: rect(0px,48px,16px,32px);
 }
 treechildren::-moz-tree-image(iconic,paused,pausedAutoretrying) {
- -moz-image-region: rect(128px,96px,160px,64px);
+ -moz-image-region: rect(64px,48px,80px,32px);
 }
 treechildren::-moz-tree-image(iconic,finishing),
 treechildren::-moz-tree-image(iconic,inprogress) {
- -moz-image-region: rect(0px,32px,32px,0px);
+ -moz-image-region: rect(0px,16px,16px,0px);
 }
 treechildren::-moz-tree-image(iconic,completed) {
- -moz-image-region: rect(128px,32px,160px,0px);
+ -moz-image-region: rect(64px,16px,80px,0px);
 }
 treechildren::-moz-tree-image(iconic,completed,verified) {
- -moz-image-region: rect(128px,64px,160px,32px);
+ -moz-image-region: rect(64px,32px,80px,16px);
 }
 treechildren::-moz-tree-cell-text(private) {
  font-style: italic !important;
 }
 treechildren::-moz-tree-image(iconic,addbutton) {
- list-style-image: url(tools.png);
- -moz-image-region: rect(0px,52px,26px,26px);
+ list-style-image: url(icons.png);
+ -moz-image-region: rect(160px,48px,176px,0px);
 }
 @media (min-resolution: 2dppx) {
  treechildren::-moz-tree-image(iconic) {
   list-style-image: url(icons@2x.png);
   -moz-image-region: rect(32px,96px,64px,64px);
-  width: 32px !important;
+  width: 16px !important;
  }
  treechildren::-moz-tree-image(iconic,canceled) {
   -moz-image-region: rect(0px,128px,32px,96px);
