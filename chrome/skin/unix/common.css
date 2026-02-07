@@ -23,8 +23,8 @@ prefpane groupbox {
 }
 
 treechildren::-moz-tree-image(iconic) {
- width: 32px !important;
- height: 32px !important;
+ width: 16px !important;
+ height: 16px !important;
 }
 
 /* Work-around for bugzilla #593812 */
